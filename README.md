@@ -1,2 +1,2 @@
 # counter_app_bloc
-![alt Screenshot](https://github.com/mitulgautam/counter_app_bloc/blob/master/sample/Screenshot.png?raw=true)
+<img src="https://github.com/mitulgautam/counter_app_bloc/blob/master/sample/Screenshot.png?raw=true" width="200">
