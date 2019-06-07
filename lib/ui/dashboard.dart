@@ -33,13 +33,16 @@ class _DashboardState extends State<Dashboard> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               OutlineButton(
+                borderSide: BorderSide(
+                  color: Colors.pink,
+                ),
+                highlightElevation: 16.0,
                 padding: EdgeInsets.all(32.0),
                 onPressed: () {
                   bloc.inputSink.add(--counter);
                 },
                 color: Colors.pink,
-                splashColor: Colors.pinkAccent,
-                highlightedBorderColor: Colors.pink,
+                splashColor: Colors.pink,
                 child: Icon(
                   Icons.exposure_neg_1,
                   size: 64.0,
